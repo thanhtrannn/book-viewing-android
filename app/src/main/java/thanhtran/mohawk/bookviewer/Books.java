@@ -12,24 +12,28 @@ public class Books {
         public String       kind;
         public String       id;
         public String       etag;
-        public String       averageRating;
-        public String       ratingsCount;
-        public VolumeInfo   volumeInfo;
+        public VolumeInfo   volumeInfo; // Contains details of the item
 
         @Override
+        // To display in list view
         public String toString() {
-            return volumeInfo.title + "\n\t\tby: " + volumeInfo.authors.get(0);
+            // Used to print formatting to list view
+            return volumeInfo.title;
         }
     }
 
     public class VolumeInfo {
         public String               title;
+        public String               subtitle;
         public ArrayList<String>    authors;
         public String               description;
         public String               publisher;
         public String               publishedDate;
-        public String               pageCount;
-        public List<String>         imageLinks;
+        public imageLinks           imageLinks;
+    }
+
+    public class imageLinks {
+        public String               thumbnail;
     }
 
 }

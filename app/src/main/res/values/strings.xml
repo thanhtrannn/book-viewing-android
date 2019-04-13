@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Book Viewer - Thanh Tran 000737993</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="labelPublisher">Publisher</string>
+    <string name="labelPublishedDate">Published Date</string>
+    <string name="labelDescription">Description</string>
+    <string name="btnAuthorLabel">By Author</string>
+    <string name="btnBothLabel">Both</string>
+    <string name="btnTitleLabel">By Title</string>
+    <string name="searchPlaceHolder">Search</string>
+    <string name="searchEmpty">There were no results</string>
 </resources>
